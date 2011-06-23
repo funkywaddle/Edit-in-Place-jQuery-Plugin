@@ -24,13 +24,12 @@ You can set the text of the links or use an image. You can remove the editable t
 *NOTE 2: If the img version of the link is set, it will be used instead of the text link. Image trumps Text*
 
 ## Example Usage
-`
-jQuery('.editInPlace').editInPlace({
-	editlink: 'Edit This',
-	saveimg: 'icons/disk.png',
-	autosave: function(text)
-	{
-		$.ajax(...);
-	}
-});
-`
+
+    jQuery('.editInPlace').editInPlace({
+	    editlink: 'Edit This',
+	    saveimg: 'icons/disk.png',
+	    autosave: function(text)
+	    {
+		    $.ajax(...);
+	    }
+    });
